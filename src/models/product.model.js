@@ -1,14 +1,23 @@
-const camelize = require('camelize');
-const snakeize = require('snakeize');
+// const camelize = require('camelize');
+// const snakeize = require('snakeize');
 const connection = require('./connection');
 
-const XXX = async () => {
+const findAll = async () => {
   const [result] = await connection.execute(
-    snakeize(),
+    'SELECT * FROM StoreManager.products',
   );
-  return camelize(result); 
+  return result; 
+};
+
+const findById = async (id) => {
+  const [[result]] = await connection.execute(
+    'SELECT * FROM StoreManager.products WHERE id = ? ', [id],
+  );
+  console.log(result);
+  return result; 
 };
 
 module.exports = {
-XXX,
+  findAll,
+  findById,
 };
