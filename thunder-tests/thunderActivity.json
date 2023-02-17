@@ -28,22 +28,36 @@
     "tests": []
   },
   {
-    "_id": "b0544a09-dab4-4a36-b02f-3de790ebb513",
+    "_id": "4775c558-f190-4ba8-b2f1-c192ccc04a8c",
     "colId": "history",
     "containerId": "",
-    "name": "https://www.thunderclient.com/welcome",
-    "url": "https://www.thunderclient.com/welcome",
+    "name": "http://localhost:3000/sales",
+    "url": "http://localhost:3000/sales",
     "method": "POST",
     "sortNum": 0,
-    "created": "2023-02-15T20:04:27.088Z",
-    "modified": "2023-02-15T20:04:27.088Z",
+    "created": "2023-02-16T15:21:09.373Z",
+    "modified": "2023-02-16T15:21:09.373Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"ProdutoX\"\n}",
+      "raw": "[\n  {\n    \"productId\": 1,\n    \"quantity\": 1\n  },\n  {\n    \"productId\": 2,\n    \"quantity\": 5\n  }\n]",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "a56c466f-8a89-4a83-83c0-66c2a262eeec",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://www.thunderclient.com/welcome",
+    "url": "https://www.thunderclient.com/welcome",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-17T13:48:59.689Z",
+    "modified": "2023-02-17T13:48:59.689Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
