@@ -6,7 +6,7 @@ const createSale = async (req, res) => {
   const { type, message } = await saleService.createSale(sales);
 
   if (type) return res.status(type).json(message);
-  
+
   res.status(201).json(message);
 };
 
