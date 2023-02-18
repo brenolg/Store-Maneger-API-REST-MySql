@@ -6,6 +6,10 @@ const { idRequired, quantityRequired, quantityCheck,
 const router = express.Router();
 
 router.post('/', idRequired, quantityRequired, quantityCheck, validId, validProduct,
-  saleController.createSale);
+saleController.createSale);
+
+router.get('/', saleController.getAll);
+
+router.get('/:id', saleController.productById);
 
 module.exports = router;
