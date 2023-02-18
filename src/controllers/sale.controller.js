@@ -1,13 +1,17 @@
 const { saleService } = require('../services');
 
 const createSale = async (req, res) => {
-  const sales = req.body;
+  try {
+    const sales = req.body;
 
-  const { type, message } = await saleService.createSale(sales);
+    const { type, message } = await saleService.createSale(sales);
 
-  if (type) return res.status(type).json(message);
-
-  res.status(201).json(message);
+    if (type) return res.status(type).json(message);
+    
+    res.status(201).json(message);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
 };
 
 const getAll = async (_req, res) => {
