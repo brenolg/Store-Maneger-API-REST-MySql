@@ -73,5 +73,24 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "c9581a69-91bd-465a-b121-a13557f62858",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/products/1",
+    "url": "http://localhost:3000/products/1",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-02-18T20:08:43.396Z",
+    "modified": "2023-02-18T20:08:43.396Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Martelo do Batman\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
