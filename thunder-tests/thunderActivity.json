@@ -92,5 +92,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "04fc64a6-2f84-4b5a-aa11-544cc70ba91a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/products/1",
+    "url": "http://localhost:3000/products/2",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-02-18T22:30:58.382Z",
+    "modified": "2023-02-18T22:40:12.242Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
