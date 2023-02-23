@@ -83,12 +83,12 @@
     "method": "PUT",
     "sortNum": 0,
     "created": "2023-02-18T20:08:43.396Z",
-    "modified": "2023-02-20T21:02:19.043Z",
+    "modified": "2023-02-23T19:37:01.627Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"Martelo do Batman\"\n}",
+      "raw": "{\n  \"name\": \"Martelo do Birkman\"\n}",
       "form": []
     },
     "tests": []
@@ -98,11 +98,11 @@
     "colId": "history",
     "containerId": "",
     "name": "http://localhost:3000/products/1",
-    "url": "http://localhost:3000/products/2",
+    "url": "http://localhost:3000/products/1",
     "method": "DELETE",
     "sortNum": 0,
     "created": "2023-02-18T22:30:58.382Z",
-    "modified": "2023-02-18T22:40:12.242Z",
+    "modified": "2023-02-23T20:29:26.396Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -116,9 +116,14 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2023-02-20T20:23:26.468Z",
-    "modified": "2023-02-20T20:23:26.468Z",
+    "modified": "2023-02-23T18:49:46.630Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"ProdutoX\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
