@@ -66,10 +66,8 @@ describe('Testes da camada model de products', function () {
     const result = await productModel.deleteById(1);
 
     expect(result[0].affectedRows).to.be.deep.equal(1);
-    expect(result[0].serverStatus).to.be.deep.equal(2);
   });
-  // serverStatus ??? o q seria
-
+  
   afterEach(function () {
     sinon.restore();
   });

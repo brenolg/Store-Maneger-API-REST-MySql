@@ -2,7 +2,7 @@ const { idSchema, nameSchema } = require('./schemas');
 
 const validateId = (id) => {
   const { error } = idSchema.validate(id);
-  if (error) return { type: 'INVALID_VALUE', message: 'Id not found' };
+  if (error) return { type: 'INVALID_VALUE', message: '"id" must be a number' };
   
   return { type: null, message: '' };
 };
