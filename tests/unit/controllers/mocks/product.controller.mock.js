@@ -1,6 +1,6 @@
 const oneId = {
   "id": 1,
-  "name": "Martelo de THhor"
+  "name": "Martelo de Thor"
 }
 
 module.exports = {
