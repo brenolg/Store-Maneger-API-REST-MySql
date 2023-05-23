@@ -1,6 +1,27 @@
-## Documentação da API
 
-### **Visão geral**
+
+## Banco de dados  
+<details close>
+    <summary><strong> Diagrama e Tabelas</strong></summary>
+  - MySQL 
+
+ #### Diagrama de Entidade-Relacionamento
+<img>
+
+#### Tabelas
+  
+ O banco terá três tabelas:
+
+- A tabela `products`, com os atributos `id` e `name`;
+- A tabela `sales`, com os atributos `id` e `date`;
+- A tabela `sales_products`, com os atributos `sale_id`, `product_id` e `quantity`;
+- O script de criação do banco de dados pode ser visto [aqui](migration.sql);
+- O script que popula o banco de dados pode ser visto [aqui](seed.sql);
+ </details>
+
+## Documentação da API
+<details close>
+      <summary><strong> Visão geral</summary>
 
 | Endpoint     | Método HTTP | Descrição               | 
 | :----------- | :---------- | :---------------------- |
@@ -14,8 +35,10 @@
 | [`/sales`](#)     | POST         | Validar e cadastrar vendas
 | [`/sales/:id`](#) | PUT      | Atualizar uma venda
 | [`/sales/:id`](#)   | DELETE       | Deleta uma venda
+ </details>
 
 ## Requisitos 
+<details close>
 
 01. Crie endpoints para listar produtos
 02. Desenvolva testes que cubram no mínimo 5% das camadas da sua aplicação
@@ -29,3 +52,4 @@
 10. Crie endpoint para atualizar um produto
 11. Desenvolva testes que cubram no mínimo 25% das camadas da sua aplicação
 12. Crie endpoint para deletar um produto
+</details>
