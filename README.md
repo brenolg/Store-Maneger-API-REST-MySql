@@ -80,7 +80,7 @@ Para instalar e executar o projeto localmente, você precisa ter o Docker instal
 1. Clone o repositório do GitHub:
 
 ```bash
-git@github.com:brenolg/Talker-Manager.git
+git clone git@github.com:brenolg/Store-Maneger-API-REST.git
 ```
 Rode os serviços node e db:
 ```bash
