@@ -1,4 +1,4 @@
-# Store Managee
+# Store Manager
 
 Neste projeto, foi desenvolvida uma API de gerenciamento de vendas utilizando a arquitetura MSC (Model-Service-Controller) e seguindo os princípios do REST. A API foi construída com o objetivo de possibilitar a criação, visualização, atualização e exclusão de produtos e vendas em um sistema de dropshipping.
 
