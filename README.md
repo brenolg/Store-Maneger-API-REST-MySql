@@ -19,16 +19,16 @@ Em resumo, o projeto Store Manager consiste em uma API de gerenciamento de venda
 - Middlewares
 - Node.js
 
-## Banco de dados  
+## Banco de dados
 <details close>
     <summary><strong> Diagrama e Tabelas</strong></summary>
-  - MySQL 
+
 
  #### Diagrama de Entidade-Relacionamento
-<img>
+<img src='./storeManager.png'>
 
 #### Tabelas
-  
+
  O banco terá três tabelas:
 
 - A tabela `products`, com os atributos `id` e `name`;
@@ -44,7 +44,7 @@ A API segue os princípios do REST, fornecendo uma interface uniforme e intuitiv
 <details close>
       <summary><strong> Visão geral</summary>
 
-| Endpoint     | Método HTTP | Descrição               | 
+| Endpoint     | Método HTTP | Descrição               |
 | :----------- | :---------- | :---------------------- |
 | [`/products`](#)   | GET        | Todos os produtos devem ser retornados|
 | [`/products/:id`](#)| GET         | Apenas o produto com o id presente na URL deve ser retornado|
@@ -58,7 +58,7 @@ A API segue os princípios do REST, fornecendo uma interface uniforme e intuitiv
 | [`/sales/:id`](#)   | DELETE       | Deleta uma venda
  </details>
 
-## Requisitos 
+## Requisitos
 <details close>
 1. Crie endpoints para listar produtos
 2. Desenvolva testes que cubram no mínimo 5% das camadas da sua aplicação
@@ -72,7 +72,7 @@ A API segue os princípios do REST, fornecendo uma interface uniforme e intuitiv
 10. Crie endpoint para atualizar um produto
 11. Desenvolva testes que cubram no mínimo 25% das camadas da sua aplicação
 </details>
-    
+
 ## Instalação do projeto localmente
 
 Para instalar e executar o projeto localmente, você precisa ter o Docker instalado na sua máquina. Depois, siga os seguintes passos:
@@ -96,6 +96,6 @@ npm install
 ```
 - Execute a aplicação com npm run debug
 - Execute as rotas como preferir
-    
+
 ## Agradecimentos
 Este projeto foi desenvolvido como parte do curso de Desenvolvimento de Software da Trybe. Agradeço à Trybe pela oportunidade de aprender e praticar SQL e outras tecnologias.
